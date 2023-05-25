@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
     <title>Unity WebGL Player | ARImageTracking</title>
-    <link rel="stylesheet" href="Build/TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style.css">
     <style>
          html{
             height: -webkit-fill-available;
@@ -33,14 +33,14 @@
     </style>
 </head>
 <body>
-    <script src="Build/app.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
     <!--IMAGETARGETS-->
-		<imagetarget id='bfly' src='Build/targets/bfly.png'></imagetarget>
-		<imagetarget id='flower' src='Build/targets/flower.png'></imagetarget>
-		<imagetarget id='lady' src='Build/targets/lady.png'></imagetarget>
-		<imagetarget id='reel' src='Build/targets/reel.png'></imagetarget>
-		<imagetarget id='rmn' src='Build/targets/rmn.png'></imagetarget>
-		<imagetarget id='bear' src='Build/targets/bear.png'></imagetarget>
+		<imagetarget id='bfly' src='targets/bfly.png'></imagetarget>
+		<imagetarget id='flower' src='targets/flower.png'></imagetarget>
+		<imagetarget id='lady' src='targets/lady.png'></imagetarget>
+		<imagetarget id='reel' src='targets/reel.png'></imagetarget>
+		<imagetarget id='rmn' src='targets/rmn.png'></imagetarget>
+		<imagetarget id='bear' src='targets/bear.png'></imagetarget>
 
     <div id="startWebcamDiv" class="ctaDiv">
         <p style="text-align: center; width:60vw">This augmented reality experience requires access to your device's camera</p>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Build/Build.loader.js"></script>
+    <script src="Build/Build.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 
                 document.getElementById("startWebcamDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build.data",
-                    frameworkUrl: "Build.framework.js",
-                    codeUrl: "Build.wasm",
+                    dataUrl: "Build/Build.data",
+                    frameworkUrl: "Build/Build.framework.js",
+                    codeUrl: "Build/Build.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "ARImageTracking",
