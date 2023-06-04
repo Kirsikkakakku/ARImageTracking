@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.459
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
       propertyPath: m_LocalPosition.y
@@ -302,6 +302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bfly_idle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 949832769499426441, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 5.471715e-16
@@ -338,6 +342,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.654636e-15
       objectReference: {fileID: 0}
+    - target: {fileID: 8116810244818111436, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
 --- !u!1 &60438531 stripped
@@ -347,7 +355,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &60438532
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -364,7 +372,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &75037616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1779,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &749400226
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1788,7 +1796,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &842344581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower
       objectReference: {fileID: 0}
+    - target: {fileID: 9140543009669971857, guid: 5d2a428e683ec49c5b4a2230f38aaa25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2a428e683ec49c5b4a2230f38aaa25, type: 3}
 --- !u!4 &1251671495 stripped
@@ -2784,6 +2796,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1310778119401607826}
     m_Modifications:
+    - target: {fileID: 3225884647207328635, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3601481113313182789, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
       propertyPath: m_Name
       value: bfly
@@ -2794,7 +2810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6499787725613659233, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6499787725613659233, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2869,6 +2885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -3058,6 +3075,10 @@ PrefabInstance:
     - target: {fileID: 5955938438950935852, guid: 98147f61545c94defa4ae73b63577bb4, type: 3}
       propertyPath: m_Name
       value: lady
+      objectReference: {fileID: 0}
+    - target: {fileID: 5955938438950935852, guid: 98147f61545c94defa4ae73b63577bb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98147f61545c94defa4ae73b63577bb4, type: 3}
