@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.459
+      value: 1.181
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d61d1a038a9d041a3ab76328c8409754, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4000,7 +4000,7 @@ MonoBehaviour:
     transform: {fileID: 1470509473}
   - id: lady
     transform: {fileID: 1608366413}
-  trackerOrigin: 0
+  trackerOrigin: 1
   trackedIds: []
   overrideTrackerSettings: 1
   trackerSettings:
