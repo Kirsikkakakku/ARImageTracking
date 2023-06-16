@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using Imagine.WebAR;
 
 public class DeviceOrientation : MonoBehaviour
 {
-    [SerializeField] Text orientationText, gyroAvailability;
+    [SerializeField] Text topText, middleText, bottomText;
     [SerializeField] GameObject cam;
+    [SerializeField] ImageTracker tracker;
+    [SerializeField] ImageTrackerCamera trackerCam;
+
 
     public static AttitudeSensor current { get; }
 
@@ -17,16 +21,18 @@ public class DeviceOrientation : MonoBehaviour
     {
         Input.gyro.enabled = true;
         gyroAvailable = SystemInfo.supportsGyroscope;
-        gyroAvailability.text = gyroAvailable.ToString();
+        middleText.text = gyroAvailable.ToString();
     }
 
     void Update()
     {
         if (current == null)
         {
-            orientationText.text = "NULL";
+            topText.text = "NULL";
         }
         //orientationText.text = Input.gyro.attitude.ToString();
-        orientationText.text = cam.transform.position.ToString();
+        topText.text = cam.transform.position.ToString();
+        middleText.text = tracker.isActiveAndEnabled.ToString();
+        bottomText.text = trackerCam.isActiveAndEnabled.ToString();
     }
 }
