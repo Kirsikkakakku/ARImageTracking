@@ -4269,9 +4269,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  OnImageLost:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 7810229143781186445}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
@@ -4284,9 +4281,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1310778119401607827}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 1310778119401607917}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4296,6 +4293,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnImageLost:
+    m_PersistentCalls:
+      m_Calls: []
   debugCamMoveSensitivity: 0.1
   debugCamTiltSensitivity: 1
 --- !u!4 &6499787724780946881 stripped
