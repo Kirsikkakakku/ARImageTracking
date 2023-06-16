@@ -3709,7 +3709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientationText: {fileID: 1837253851}
   gyroAvailability: {fileID: 1615797426}
-  cam: {fileID: 0}
+  cam: {fileID: 7810229143781186441}
 --- !u!1 &1961581454
 GameObject:
   m_ObjectHideFlags: 0
