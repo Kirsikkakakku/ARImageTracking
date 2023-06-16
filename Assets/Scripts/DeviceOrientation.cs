@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class DeviceOrientation : MonoBehaviour
 {
     [SerializeField] Text orientationText, gyroAvailability;
+    [SerializeField] GameObject cam;
 
     public static AttitudeSensor current { get; }
 
@@ -25,6 +26,7 @@ public class DeviceOrientation : MonoBehaviour
         {
             orientationText.text = "NULL";
         }
-        orientationText.text = Input.gyro.attitude.ToString();
+        //orientationText.text = Input.gyro.attitude.ToString();
+        orientationText.text = cam.transform.position.ToString();
     }
 }
