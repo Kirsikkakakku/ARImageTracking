@@ -4242,7 +4242,7 @@ MonoBehaviour:
     transform: {fileID: 6499787724780946881}
   - id: lady
     transform: {fileID: 1608366413}
-  trackerOrigin: 0
+  trackerOrigin: 1
   trackedIds: []
   overrideTrackerSettings: 1
   trackerSettings:
