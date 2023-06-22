@@ -177,7 +177,7 @@ namespace Imagine.WebAR
             }
         }
 
-        /*
+        
         void OnTrackingLost(string id)
         {
             if (!targets.ContainsKey(id))
@@ -206,7 +206,7 @@ namespace Imagine.WebAR
 
             OnImageLost?.Invoke(id);
         }
-        */
+        
 
         void OnTrack(string data)
         {
