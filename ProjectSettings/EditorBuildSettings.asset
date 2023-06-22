@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Demo-3DAnim.unity
     guid: 6cc2b173b9af34cd7978053738087cde
+  - enabled: 1
+    path: Assets/Scenes/Demo-Basic.unity
+    guid: ffc3ad8ce0180bb45b3f138bdfe5d53f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d7f76a50d5f31744a95587d427f35c77, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17f5669fdced18f48b9c6e439f627ce1, type: 2}
