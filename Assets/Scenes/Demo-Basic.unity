@@ -2377,6 +2377,8 @@ MonoBehaviour:
     transform: {fileID: 207642637099594490}
   - id: bfly
     transform: {fileID: 7870739993075634181}
+  - id: logs
+    transform: {fileID: 1241634893}
   trackerOrigin: 1
   trackedIds: []
   overrideTrackerSettings: 1
@@ -2576,7 +2578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2549872045877173981, guid: e94899e5d8ceadd4f95d879b1b9a90a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.41
       objectReference: {fileID: 0}
     - target: {fileID: 2549872045877173981, guid: e94899e5d8ceadd4f95d879b1b9a90a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4393,7 +4395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6499787725613659233, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6499787725613659233, guid: fa7648a13ea4b46a2a7a98b0b3f96889, type: 3}
       propertyPath: m_LocalPosition.y
