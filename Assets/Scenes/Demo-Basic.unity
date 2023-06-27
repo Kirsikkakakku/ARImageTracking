@@ -532,6 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274322548}
+  - component: {fileID: 274322549}
   m_Layer: 0
   m_Name: TextContainer
   m_TagString: Untagged
@@ -554,6 +555,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &274322549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274322547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510c83dd463b9b24889ceaf8e39fbc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testText_1: {fileID: 1647650040}
 --- !u!1 &285973591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,7 +2423,7 @@ MonoBehaviour:
   - id: lady
     transform: {fileID: 207642637099594490}
   - id: bfly
-    transform: {fileID: 7870739993075634181}
+    transform: {fileID: 1558724080}
   - id: logs
     transform: {fileID: 1241634893}
   trackerOrigin: 1
@@ -3207,7 +3221,7 @@ GameObject:
   - component: {fileID: 1647650041}
   - component: {fileID: 1647650040}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: TestingText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
