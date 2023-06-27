@@ -28,8 +28,6 @@ namespace Imagine.WebAR
         [DllImport("__Internal")] private static extern float DebugImageTarget(string id);
         [DllImport("__Internal")] private static extern bool IsWebGLImageTracked(string id);
 
-        [SerializeField] private GameObject testObject;
-
         [SerializeField] private ImageTrackerCamera trackerCam;
         [SerializeField] private List<ImageTarget> imageTargets;
         private Dictionary<string, ImageTarget> targets = new Dictionary<string, ImageTarget>();
@@ -170,11 +168,6 @@ namespace Imagine.WebAR
                 Debug.LogError("Found an already tracked id - " + id);
 
             OnImageFound?.Invoke(id);
-
-            if (!testObject.activeInHierarchy)
-            {
-                testObject.SetActive(true);
-            }
         }
 
         

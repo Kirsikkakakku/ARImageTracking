@@ -18,7 +18,7 @@ namespace Imagine.WebAR
 
         private void Update()
         {
-            testText_1.text = trackerCamera.paused.ToString();
+            testText_1.text = trackerCamera.transform.position.ToString();
         }
     }
 }
