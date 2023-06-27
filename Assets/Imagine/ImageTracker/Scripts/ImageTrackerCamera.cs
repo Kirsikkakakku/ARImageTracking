@@ -18,7 +18,7 @@ namespace Imagine.WebAR
 
         [Header("*Experimental")]
         [SerializeField] string editorCamera = "";
-        [SerializeField] bool paused = false;
+        [SerializeField] public bool paused = false;
 
         public enum VideoPlaneMode {
             NONE,
