@@ -13,6 +13,7 @@ namespace Imagine.WebAR
         private Camera cam;
 
         [SerializeField] private Text testText_1, testText_2, testText_3, testText_4;
+        [SerializeField] private GameObject XROrigin;
 
         private void Awake()
         {
@@ -28,10 +29,10 @@ namespace Imagine.WebAR
 
         private void Update()
         {
-            //testText_1.text = trackerCamera.transform.position.ToString();
-            testText_3.text = trackedPoseDriver.transform.position.ToString();
-            //testText_4.text = trackedPoseDriver.transform.rotation.ToString();
-            testText_2.text = cam.isActiveAndEnabled.ToString();
+            testText_1.text = XROrigin.transform.position.ToString();
+            testText_2.text = trackedPoseDriver.transform.position.ToString();
+            //testText_3.text = trackedPoseDriver.transform.rotation.ToString();
+            //testText_4.text = cam.isActiveAndEnabled.ToString();
         }
     }
 }
