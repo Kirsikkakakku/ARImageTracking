@@ -199,7 +199,6 @@ namespace Imagine.WebAR
 
             OnImageLost?.Invoke(id);
         }
-        
 
         void OnTrack(string data)
         {
