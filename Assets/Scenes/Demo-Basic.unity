@@ -539,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &274322548
 Transform:
   m_ObjectHideFlags: 0
@@ -2601,7 +2601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed093621d8d342e9b74c757be4c323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackerCam: {fileID: 0}
+  trackerCam: {fileID: 963194231}
   imageTargets:
   - id: flower
     transform: {fileID: 6442310872840647650}
@@ -3204,7 +3204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1428731477
 Transform:
   m_ObjectHideFlags: 0
