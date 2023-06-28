@@ -31,8 +31,8 @@ namespace Imagine.WebAR
 
         private void Update()
         {
-            testText_1.text = XROrigin.transform.position.ToString();
-            testText_2.text = trackedPoseDriver.transform.position.ToString();
+            testText_1.text = XROrigin.transform.localPosition.ToString();
+            testText_2.text = trackedPoseDriver.transform.localPosition.ToString();
             //testText_3.text = 
             //testText_4.text = cam.isActiveAndEnabled.ToString();
 
