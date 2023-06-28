@@ -553,7 +553,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &274322549
 MonoBehaviour:
@@ -1073,7 +1073,7 @@ RectTransform:
   - {fileID: 1923653163}
   - {fileID: 684597998}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2144,8 +2144,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1428731477}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194230
 MonoBehaviour:
@@ -2585,8 +2585,9 @@ Transform:
   - {fileID: 207642637099594490}
   - {fileID: 7870739993075634181}
   - {fileID: 1241634893}
+  - {fileID: 1558724080}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1088328896
 MonoBehaviour:
@@ -2630,38 +2631,6 @@ MonoBehaviour:
       m_Calls: []
   debugCamMoveSensitivity: 0.1
   debugCamTiltSensitivity: 1
---- !u!1 &1090054818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1090054819}
-  m_Layer: 0
-  m_Name: TrackablesParent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1090054819
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090054818}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29920727, y: 0.15013015, z: 0.5878383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1558724080}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168007473
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,7 +3204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1428731477
 Transform:
   m_ObjectHideFlags: 0
@@ -3247,10 +3216,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 963194228}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1428731478
 MonoBehaviour:
@@ -3335,7 +3303,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1499090273
 GameObject:
@@ -3418,23 +3386,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1090054819}
+    m_TransformParent: {fileID: 1088328895}
     m_Modifications:
     - target: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.29920727
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.15013015
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.95616174
+      value: 1.544
       objectReference: {fileID: 0}
     - target: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
       propertyPath: m_LocalRotation.w
