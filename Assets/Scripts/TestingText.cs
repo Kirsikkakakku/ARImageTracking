@@ -34,15 +34,16 @@ namespace Imagine.WebAR
 
         private void Start()
         {
-            testText_2.text = trackedPoseDriver.deviceType.ToString();
+            //testText_2.text = trackedPoseDriver.deviceType.ToString();
+            StartMotionTracking();
         }
 
         private void Update()
         {
-            //testText_1.text = Input.gyro.attitude.ToString();
-            //testText_2.text = Input.acceleration.ToString();
-            //testText_3.text = 
-            //testText_4.text = cam.isActiveAndEnabled.ToString();
+            testText_1.text = basePos.ToString();
+            testText_2.text = Input.acceleration.ToString();
+            testText_3.text = TestObject.transform.position.ToString();
+            testText_4.text = cam.transform.position.ToString();
 
             if (motionTracking)
             {
