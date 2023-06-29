@@ -14,9 +14,13 @@ namespace Imagine.WebAR
         private TrackedPoseDriver trackedPoseDriver;
         private ImageTracker imageTracker;
         private Camera cam;
+        private Vector3 basePos;
+        private Quaternion baseRot;
+
+        private bool motionTracking = false;
 
         [SerializeField] private Text testText_1, testText_2, testText_3, testText_4;
-        [SerializeField] private GameObject XROrigin;
+        [SerializeField] private GameObject TestObject;
 
         public static AttitudeSensor sensor { get; }
 
@@ -35,10 +39,24 @@ namespace Imagine.WebAR
 
         private void Update()
         {
-            testText_1.text = Input.gyro.attitude.ToString();
-            testText_2.text = Input.acceleration.ToString();
+            //testText_1.text = Input.gyro.attitude.ToString();
+            //testText_2.text = Input.acceleration.ToString();
             //testText_3.text = 
             //testText_4.text = cam.isActiveAndEnabled.ToString();
+
+            if (motionTracking)
+            {
+                TestObject.transform.position = basePos + Input.acceleration;
+                //TestObject.transform.rotation = baseRot + Input.gyro.attitude;
+            }
+
+        }
+
+        public void StartMotionTracking()
+        {
+            motionTracking = true;
+            baseRot = Input.gyro.attitude;
+            basePos = Input.acceleration;
         }
     }
 }

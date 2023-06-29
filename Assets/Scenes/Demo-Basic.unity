@@ -571,7 +571,7 @@ MonoBehaviour:
   testText_2: {fileID: 738825658}
   testText_3: {fileID: 1923653165}
   testText_4: {fileID: 684597996}
-  XROrigin: {fileID: 1428731475}
+  TestObject: {fileID: 1558724081}
 --- !u!1 &285973591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,6 +3441,11 @@ PrefabInstance:
 --- !u!4 &1558724080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447636388726583216, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
+  m_PrefabInstance: {fileID: 1558724079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1558724081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7925974081562533780, guid: ec6620681b575cb44a9bd1e94de0538b, type: 3}
   m_PrefabInstance: {fileID: 1558724079}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1647650038
