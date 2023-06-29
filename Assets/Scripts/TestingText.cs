@@ -16,6 +16,7 @@ namespace Imagine.WebAR
         private Camera cam;
         private Vector3 basePos;
         private Quaternion baseRot;
+        private Vector3 defaultLoc = new(0, 0, 2);
 
         private bool motionTracking = false;
 
@@ -47,7 +48,7 @@ namespace Imagine.WebAR
 
             if (motionTracking)
             {
-                TestObject.transform.position = basePos + Input.acceleration;
+                TestObject.transform.position = defaultLoc + Input.acceleration;
                 //TestObject.transform.rotation = baseRot + Input.gyro.attitude;
             }
 
