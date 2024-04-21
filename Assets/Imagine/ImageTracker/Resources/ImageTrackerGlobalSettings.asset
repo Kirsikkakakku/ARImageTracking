@@ -25,11 +25,14 @@ MonoBehaviour:
     texture: {fileID: 2800000, guid: e7fd3cb830773404693d049b4e6582a8, type: 3}
   - id: bear
     texture: {fileID: 2800000, guid: 174b033aeb9c8482aa43686a5271d72b, type: 3}
+  - id: qr_code_5x5
+    texture: {fileID: 2800000, guid: bfb3e9b4d886d9945ac6c14c1d20e861, type: 3}
   defaultTrackerSettings:
     maxSimultaneousTargets: 1
-    trackingQuality: 1
     targetFrameRate: 30
     advancedSettings:
-      detectability: 40
+      maxFrameLength: 500
+      maxFrameArea: 40
       trackedPoints: 25
+      detectInterval: 200
     debugMode: 0
